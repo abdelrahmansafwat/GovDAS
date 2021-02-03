@@ -1,1 +1,1 @@
-worker: node app.js
+worker: cd server && node app.js
