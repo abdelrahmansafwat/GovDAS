@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 mongoose.connect(process.env.MONGO_URI, { useUnifiedTopology: true, useNewUrlParser: true });
 
-const bcrypt = require('bcryptjs');
+const bcrypt = require('bcrypt');
 
 let userSchema = new Schema({
     email: { type: String, required: true },
