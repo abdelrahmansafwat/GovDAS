@@ -36,7 +36,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start": "cd server && node index.js",
+    "start": "cd server && node app.js",
     "heroku-postbuild": "yarn run build && (cd server && yarn install)"
   },
   "eslintConfig": {
